@@ -1,0 +1,29 @@
+.ImageView {
+	position: fixed;
+	left: 0; top: 0;
+	right: 0; bottom: 0;
+	background-color: $color-transparent-gray;
+
+	img {
+		position: absolute;
+		width: 600px;
+		height: 600px;
+		left: 0; top: 0;
+		right: 0; bottom: 0;
+		margin: auto;
+		border: 2px solid $color-transparent-gray;
+		background-color: white;
+	}
+
+	.details {
+		@extend img;
+		border: none;
+		background-color: transparent;
+		left: 52px; top: 27px;
+
+		p, small {
+			text-shadow: 0 0 12px black;
+			color: white;
+		}
+	}
+}

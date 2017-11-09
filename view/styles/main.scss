@@ -1,0 +1,23 @@
+// Colors and fonts
+$color-indigo: #3F51B5;
+$color-transparent-gray: rgba(0, 0, 0, .22);
+$back-shadow: 0 0 157px 0;
+$font: sans-serif;
+
+// Global styles
+body {
+	margin: 0;
+	padding: 0;
+	font-family: font;
+}
+
+* [visibility='false'] { display: none; }
+
+p { margin: 0; }
+
+// Components
+@import 'components/App.scss';
+@import 'components/ImageList.scss';
+@import 'components/ImageView.scss';
+@import 'components/PageHeader.scss';
+@import 'components/LoginForm.scss';

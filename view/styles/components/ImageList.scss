@@ -1,0 +1,31 @@
+.ImageList {
+	width: 100%;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			padding: 7px 7px;
+			border-bottom: 1px solid $color-transparent-gray;
+			cursor: pointer;
+
+			&:hover {
+				background-color: $color-transparent-gray;
+			}
+
+			.info {
+				display: inline-block;
+				margin-left: 12px;
+				vertical-align: top;
+
+				.subtitle {
+					vertical-align: top;
+					font-size: .9em;
+					color: #777;
+				}
+			}
+		}
+	}
+}
