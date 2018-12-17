@@ -3,7 +3,7 @@ React example app that demonstrates using Redux + SSR with webpack, grunt and ba
 
 ### Run the app
 ``` bash
-git clone https://github.com/moamadmadi/react-gallery.git
+git clone https://github.com/madmadi/react-gallery.git
 cd react-gallery
 npm install
 npm start
